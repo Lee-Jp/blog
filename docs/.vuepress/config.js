@@ -2,7 +2,7 @@ module.exports = {
   lang: 'zh-CN',
   title: '前端进阶积累',
   description: '靡不有初，鲜克有终',
-  base: 'blig',
+  base: '/blog/',
   markdown: {
     lineNumbers: true // 代码行数
   },

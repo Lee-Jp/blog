@@ -19,3 +19,4 @@ git commit -m 'deploy'
 git push -f git@github.com:Lee-Jp/blog.git master:gh-pages
 
 cd -
+rm -rf docs/.vuepress/dist
