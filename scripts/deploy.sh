@@ -3,14 +3,11 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-# 生成静态文件
+echo '*********** 打包项目 ************'
 npm run docs:build
 
-# 进入生成的文件夹
+echo '*********** 部署项目 ************'
 cd docs/.vuepress/dist
-
-# 如果是发布到自定义域名
-# echo 'www.example.com' > CNAME
 
 git init
 git add -A
@@ -20,3 +17,5 @@ git push -f git@github.com:Lee-Jp/blog.git master:gh-pages
 
 cd -
 rm -rf docs/.vuepress/dist
+
+echo '*********** 部署成功 ************'
