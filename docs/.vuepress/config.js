@@ -10,7 +10,6 @@ module.exports = {
     darkMode: false,
     repo: 'Lee-Jp/blog',
     lastUpdated: true, // 是否显示最后更新时间
-    lastUpdatedText: '最后更新时间', // 最后更新时间文案
     notFound: ['你来到了无人之境'], // 404显示的文案
     backToHome: '返回首页', // 404返回首页文案
     navbar: [
@@ -42,7 +41,8 @@ module.exports = {
       ],
     },
     sidebarDepth: 2,// sidebar深度
-    editLinks: false, // 编辑链接
+    editLink: false, // 编辑链接
     // editLinkText: '帮助我改善这个页面', // 链接字段
+    contributors: false, // 是否在本页面中启用 贡献者列表 
   },
 }
