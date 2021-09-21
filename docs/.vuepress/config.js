@@ -43,6 +43,6 @@ module.exports = {
     sidebarDepth: 2,// sidebar深度
     editLink: false, // 编辑链接
     // editLinkText: '帮助我改善这个页面', // 链接字段
-    contributors: false, // 是否在本页面中启用 贡献者列表 
+    contributors: false, // 是否启用 贡献者列表
   },
 }
